@@ -1,0 +1,76 @@
+/* CSS declarations go here */
+body {
+	margin: 0;
+	padding: 0;
+}
+section {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background: url('/images/irobot.jpg');
+}
+.arrow {
+	width: 50px;
+	height: 50px;
+	opacity: 0.7;
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+}
+.arrow:hover {
+	opacity: 1;
+}
+#up {
+	position: absolute;
+	top: -60px;
+	left: 225px;
+	background: url('/images/arrow-up.png');
+}
+#right {
+	position: absolute;
+	right: -60px;
+	top: 225px;
+	background: url('/images/arrow-right.png');			
+}
+#down {
+	position: absolute;
+	bottom: -60px;
+	left: 225px;
+	background: url('/images/arrow-down.png');			
+}
+#left {
+	position: absolute;
+	left: -60px;
+	top: 225px;
+	background: url('/images/arrow-left.png');			
+}
+#emergencyStop {
+	width: 100px;
+	height: 100px;
+	border: 0;
+	background: url('images/es.png');
+	top: 317px;
+	position: absolute;
+	left: 202px;
+	outline: 0;
+	cursor: pointer;
+	opacity: 0.8;
+}
+#emergencyStop:hover {
+	opacity: 1;
+}
+#sing {
+	width: 64px;
+	height: 57px;
+	border: 0;
+	background: url('images/bird.png');
+	top: 123px;
+	position: absolute;
+	left: 377px;
+	outline: 0;
+	cursor: pointer;
+	opacity: 0.7;
+}
+#sing:hover {
+	opacity: 1;
+}
